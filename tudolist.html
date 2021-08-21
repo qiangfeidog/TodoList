@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/todolist.js"></script>
+</head>
+
+<body>
+    <header>
+        <section>
+            <label for="title">记事本</label>
+            <input type="text" id="title" name="title" placeholder="写下你的计划吧" required="required" autocomplete="off" />
+        </section>
+    </header>
+    <section>
+        <h2>正在进行 <span id="todocount"></span></h2>
+        <ol id="todolist" class="demo-box">
+
+        </ol>
+        <h2>已经完成 <span id="donecount"></span></h2>
+        <ul id="donelist">
+
+        </ul>
+    </section>
+
+    <div class="footer">
+			<div>计划都已经放到本地缓存了不必担心丢失哦~</div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: #CDCDCD;
+		height: 100vh;
+		background: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.588ku.com%2Fback_water_img%2F19%2F03%2F17%2F195c100e9e82dc2b8e9c280b1936241500.jpg&refer=http%3A%2F%2Fbpic.588ku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1632138982&t=85f43442e48e8862ecb0370ab6e7bde3) fixed;
+		background-repeat: no-repeat;  
+    background-size: 100% 100%;     
+		
+		background-color: rgba(255, 255, 255, 0.1);
+}
+
+header {
+    height: 50px;
+		background-color: #ec9b3d;
+}
+
+section {
+    margin: 0 auto;
+}
+
+label {
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    color: rgb(3, 3, 3);
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header input {
+    float: right;
+    width: 60%;
+    height: 24px;
+    margin-top: 12px;
+    text-indent: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.24), 0 1px 6px rgba(0, 0, 0, 0.45) inset;
+    border: none
+}
+
+input:focus {
+    outline-width: 0
+}
+
+h2 {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+ol,
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+
+li input {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+
+}
+li p{
+	overflow: hidden;/*超出部分隐藏*/
+	white-space: nowrap;/*不换行*/
+	 text-overflow:ellipsis;/*超出部分文字以...显示*/
+}
+p {
+    margin: 0;
+}
+
+li p input {
+    top: 3px;
+    left: 40px;
+    width: 70%;
+    height: 20px;
+    line-height: 14px;
+    text-indent: 5px;
+    font-size: 14px;
+}
+
+li {
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 45px;
+		padding-right: 80px;
+    border-radius: 3px;
+    border-left: 5px solid #629A9C;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+ol li {
+    cursor: move;
+		color: #ec9b3d;
+}
+
+ul li {
+    border-left: 5px solid #999;
+    opacity: 0.5;
+}
+
+li a {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    border-radius: 14px;
+    border: 6px double #FFF;
+    background: #CCC;
+    line-height: 14px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.clue {
+	font-size: 30px;
+}
+.text {
+	font-size: 20px;
+
+}
+.footer {
+	display: flex;
+	font-size: 20px;font-weight: bold;
+    color:#79c9ee;
+    font-size: 14px;
+    justify-content: center;
+		margin-top: 30px;
+}
+
+
+@media screen and (max-device-width: 620px) {
+    section {
+        width: 96%;
+        padding: 0 2%;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    section {
+        width: 600px;
+        padding: 0 10px;
+    }
+}
